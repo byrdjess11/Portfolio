@@ -1,0 +1,16 @@
+#welcomeSection {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    border: 2px dotted rgb(0, 0, 0);
+    text-align: center;
+}
+
+#pageTitle {
+    font-size: 45px;
+}
+
+#links {
+    font-size: 18px;
+}
+

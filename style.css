@@ -1,16 +1,56 @@
-#welcomeSection {
-    margin: auto;
-    width: 50%;
-    height: auto;
-    border: 2px dotted rgb(0, 0, 0);
-    text-align: center;
+html,
+body {
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    height: 100%
 }
 
-#pageTitle {
-    font-size: 45px;
+#leftColumn {
+    width: 95%;
+    height: 100%;
+    float: left;
+    background-color: rgb(123, 162, 84);
+}
+
+#nameDiv {
+    margin: 0px;
+    float: right;
+    font-size: 75%;
+    background-color: blue;
+}
+
+#name {
+    color: rgb(255, 249, 235);
+}
+
+#titleDiv {
+    float: right;
+    font-size: 500%;
+    color: rgb(255, 249, 235);
+    background-color: red;
+}
+
+
+#rightColumn {
+    margin: 0px;
+    width: 5%;
+    height: 100%;
+    float: right;
+    background-color: rgb(255, 249, 235);
+}
+
+
+#linksDiv {
+    float: right;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);    
+    transform:rotate(-90deg);
+
+    background-color: green;
 }
 
 #links {
-    font-size: 18px;
+    color: rgb(123, 162, 84);
 }
 

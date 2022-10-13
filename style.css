@@ -10,14 +10,19 @@ body {
     width: 95%;
     height: 100%;
     float: left;
-    background-color: rgb(123, 162, 84);
+    background-color: rgb(194, 127, 196);
 }
 
 #nameDiv {
     margin: 0px;
-    float: right;
-    font-size: 75%;
-    background-color: blue;
+    position: relative;
+    bottom: 270px;
+    left: 710px;
+    font-size: 150%;
+    letter-spacing: 1.1em;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);    
+    transform:rotate(-90deg);
 }
 
 #name {
@@ -25,10 +30,15 @@ body {
 }
 
 #titleDiv {
-    float: right;
-    font-size: 500%;
+    margin: 0px;
+    position: relative;
+    bottom: 400px;
+    left: 800px;
+    font-size: 600%;
     color: rgb(255, 249, 235);
-    background-color: red;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);    
+    transform:rotate(-90deg);
 }
 
 
@@ -36,8 +46,7 @@ body {
     margin: 0px;
     width: 5%;
     height: 100%;
-    float: right;
-    background-color: rgb(255, 249, 235);
+    background-color: rgb(176, 158, 173);
 }
 
 
@@ -46,11 +55,10 @@ body {
     -webkit-transform: rotate(-90deg); 
     -moz-transform: rotate(-90deg);    
     transform:rotate(-90deg);
-
     background-color: green;
 }
 
 #links {
-    color: rgb(123, 162, 84);
+    color: rgb(255, 255, 255);
 }
 
